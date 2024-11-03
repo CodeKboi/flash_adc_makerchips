@@ -1,0 +1,42 @@
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:8:16: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h7' generates 3 bits.
+                                                                  : ... note: In instance 'priority_encoder'
+    8 |     if(D[7]) O = 3'b111;
+      |                ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.018
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:9:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h6' generates 3 bits.
+                                                                  : ... note: In instance 'priority_encoder'
+    9 |     else if(D[6])O = 3'b110;   
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:10:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h5' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   10 |     else if(D[5])O = 3'b101;
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:11:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h4' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   11 |     else if(D[4])O = 3'b100;
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:12:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h3' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   12 |     else if(D[3])O = 3'b011;
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:13:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h2' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   13 |     else if(D[2])O = 3'b010;
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:14:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h1' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   14 |     else if(D[1])O = 3'b001;
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:15:20: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   15 |     else if(D[0])O = 3'b000;
+      |                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/encoder/src/encoder.v:16:12: Operator ASSIGN expects 4 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                   : ... note: In instance 'priority_encoder'
+   16 |     else O = 3'b000;
+      |            ^
+%Warning-BLKSEQ: /openlane/designs/encoder/src/encoder.v:8:16: Blocking assignment '=' in sequential logic process
+                                                             : ... Suggest using delayed assignment '<='
+    8 |     if(D[7]) O = 3'b111;
+      |                ^

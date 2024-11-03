@@ -1,0 +1,18 @@
+
+49. Printing statistics.
+
+=== priority_encoder ===
+
+   Number of wires:                 14
+   Number of wire bits:             25
+   Number of public wires:           3
+   Number of public wire bits:      13
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     $_ANDNOT_                       4
+     $_NOR_                          2
+     $_OR_                           5
+     $_SDFF_PP1_                     3
+

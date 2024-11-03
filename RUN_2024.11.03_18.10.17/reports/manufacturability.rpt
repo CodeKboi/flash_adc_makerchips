@@ -1,0 +1,19 @@
+Design Name: priority_encoder
+Run Directory: /openlane/designs/encoder/runs/RUN_2024.11.03_18.10.17
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/encoder/runs/RUN_2024.11.03_18.10.17/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/encoder/runs/RUN_2024.11.03_18.10.17/logs/signoff/38-priority_encoder.lef.lvs.log
+Number of nets: 37                         |Number of nets: 37                         
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/encoder/runs/RUN_2024.11.03_18.10.17/logs/signoff/41-arc.log
+Pin violations: 0
+Net violations: 0
