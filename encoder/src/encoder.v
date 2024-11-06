@@ -1,7 +1,7 @@
 module priority_encoder(clk,D,O);
   input [7:0] D;
   input clk;
-  output reg [3:0] O;
+  output reg [2:0] O;
 
   always@(posedge clk)
   begin

@@ -1,6 +1,0 @@
-<< properties >>
-string FIXED_BBOX 0 0 40000 40000
-string GDS_END 529970
-string GDS_FILE /openlane/designs/encoder/runs/RUN_2024.11.03_18.10.17/results/signoff/priority_encoder.magic.gds
-string GDS_START 106716
-<< end >>
